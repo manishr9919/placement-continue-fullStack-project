@@ -2,11 +2,15 @@ import "./App.css";
 import { Button, HStack } from "@chakra-ui/react";
 
 function App() {
+
+const hendleclick = ()=>{
+  alert("Wellcome-user")
+}
+
   return (
     <>
       <HStack>
-        <Button>Click me</Button>
-        <Button>Click me</Button>
+        <Button onClick = {hendleclick}>Click me</Button>
       </HStack>
     </>
   );
