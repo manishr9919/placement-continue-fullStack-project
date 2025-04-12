@@ -40,16 +40,6 @@ A smart financial planner that allows users to:
 ---
 
 ## 📦 Installation Guide
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/your-username/financial-time-machine.git
-cd financial-time-machine/server
-2. Install Dependencies
-bash
-Copy
-Edit
 npm install
 3. Environment Variables
 Create a .env file inside the /server folder:
@@ -79,9 +69,7 @@ PATCH	/api/user/update	Update financial data (protected)
 🔐 All /user routes require a Bearer token in the headers.
 
 🗃️ Sample MongoDB User Document
-json
-Copy
-Edit
+
 {
   "name": "Manish Rauniyar",
   "email": "manish@example.com",
@@ -94,10 +82,6 @@ Edit
 }
 🧪 Sample API Test (PATCH /api/user/update)
 Headers:
-
-pgsql
-Copy
-Edit
 Authorization: Bearer <JWT_TOKEN>
 Content-Type: application/json
 Body:
@@ -123,7 +107,7 @@ Edit
 ⏪ Backward analysis of past financial decisions
 
 📸 Screenshots (Coming Soon...)
-<!-- You can later add UI screenshots or API response examples here -->
+<!-- we can later add UI screenshots or API response examples here -->
 🤝 Contributing
 Want to contribute or improve the app? Fork it, make changes, and raise a PR.
 
@@ -137,39 +121,3 @@ npm run dev
 Manish Rauniyar
 💼 MERN Stack Developer
 🔗 GitHub | ✉️ manish@example.com
-
-⭐ Star this repo if you like the project!
-yaml
-Copy
-Edit
-
----
-
-### 🔧 Pro Tip:
-
-When you finish the frontend, I can help you extend this README with:
-- Live demo link
-- Deployment guide
-- Frontend setup
-
-Just ping me anytime: `add frontend setup to README` 😎
-
-Ready to commit this? Or want help pushing this to GitHub too?
-
-
-
-
-
-
-
-
-
-
-
-Search
-
-Reason
-
-
-
-ChatGPT can make mistak
